@@ -2,6 +2,11 @@
 
 SwarmSync is a production-minded C++20, BitTorrent-style file distribution system for trusted local and LAN environments. It splits a file into SHA-256-verified chunks so peers can download different chunks concurrently and immediately share the chunks they have already verified.
 
+SwarmSync is a BitTorrent-style peer-to-peer file-sharing system. Its main purpose is to share large files faster and more reliably without putting all load on one central server.
+
+<img width="849" height="1216" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/9eb86090-ffea-4def-9992-9bcf7f949fba" />
+
+
 The tracker is **not** a file server. It stores only short-lived peer presence metadata; file bytes flow directly between peers.
 
 ## Why it exists
