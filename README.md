@@ -246,6 +246,3 @@ The demo test additionally proves two independent download peers produce byte-id
 
 > “SwarmSync is a C++ peer-to-peer file distribution system inspired by BitTorrent. I designed it to avoid a single-server bandwidth bottleneck by splitting files into SHA-256-verified chunks and allowing each downloader to become an uploader. I implemented a bounded metadata-only tracker, concurrent chunk workers, retry/failover logic, restart-safe resume validation, final file verification, and a reproducible multi-peer demo.”
 
-## License
-
-Released under the [MIT License](LICENSE).
