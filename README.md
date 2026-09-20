@@ -4,6 +4,8 @@ SwarmSync is a production-minded C++20, BitTorrent-style file distribution syste
 
 SwarmSync is a BitTorrent-style peer-to-peer file-sharing system. Its main purpose is to share large files faster and more reliably without putting all load on one central server.
 
+![SwarmSync Architecture](./diagram.png)
+
 <img width="849" height="1216" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/9eb86090-ffea-4def-9992-9bcf7f949fba" />
 
 
